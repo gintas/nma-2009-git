@@ -14,6 +14,7 @@ Savo projekto kūrimas:
 - „create a new repository“
 - Sekti instrukcijas
 - Sukurti keletą failų.
+- Pervadinti failą neprarandant istorijos.
 
 - Sukurti šaką, atlikti joje pakeitimų, sulieti pakeitimus su „master“,
 ištrinti šaką

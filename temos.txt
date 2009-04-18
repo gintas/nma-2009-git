@@ -12,7 +12,8 @@ git – paskirstyta versijavimo sistema
 5. git blame
 5. failų atkeitimas (revert)
 6. git reset
-7. .gitignore
+7. git mv
+8. .gitignore
 
 
 Šakos (branches) ir žymos (tags)
