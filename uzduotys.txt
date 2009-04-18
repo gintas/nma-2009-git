@@ -1,0 +1,50 @@
+Git užduotys
+============
+
+
+Pasiruošimas:
+
+Įdiegti msysgit, jei neįdiegtas
+Susigeneruoti SSH raktą (ssh-keygen)
+
+git clone git://github.com/gintas/nma-2009-git.git
+
+Savo projekto kūrimas:
+- Užsiregistruoti github.com
+- „create a new repository“
+- Sekti instrukcijas
+- Sukurti keletą failų.
+
+- Sukurti šaką, atlikti joje pakeitimų, sulieti pakeitimus su „master“,
+ištrinti šaką
+- Uždėti žymę (tag)
+
+- Ištrinti anksčiau pridėtą failą ir vėl jį atstatyti
+- Atlikti pakeitimą ir (neatlikus commit) jį atkeisti
+- Atlikti pakeitimą, atlikti commit ir atkeisti (su revert)
+- Atlikti pakeitimą, atlikti commit ir atkeisti (su checkout)
+
+- Supushinti savo projektą į kitą Git repozitoriją vietiniame kompiuteryje
+- Išprovokuoti konfliktą antroje vietinėje repozitorijoje ir jį išspręsti
+- Atlikti pakeitimus vietinėje repozitorijoje atžvilgiu, sulieti (merge)
+su kita paprastai ir su --rebase, palyginti grafiškai su gitk.
+
+- Pažiūrėti istoriją (git log, git blame)
+
+- Paimti šių temų repozitoriją, nuklonuoti githube, pridėti pliusiukus,
+commit'inti, pakeisti anksčiau parsisiųstos repozitorijos remote „origin“
+adresą ir ir pushinti pakeitimus.
+
+- Uždėti šitą pliusiuką, išsiųsti patch'ą kolegai.
+- Pakeisti dvi gretimas eilutes, committinti tik vieną su add --interactive
+
+- Sukurti --bare repozitoriją, palyginti su paprasta.
+
+- Pridėti .gitignore failą, išbandyti veikimą
+- Atlikti paiešką senoje versijoje su git grep
+- Pakeisti paskutinį commit'ą su --amend
+- Išbandyti git stash
+- Išbandyti git bisect (kai jau susikaupia daugiau commit'ų)
+
+- Pašniukštinėti po vidinę struktūrą su git show: surasti konkrečius
+commit'us, pakeitimų medžius, pakeitimus

@@ -3,14 +3,16 @@ Teorija:
 git – paskirstyta versijavimo sistema
 
 
-
 Įprastos komandos:
 
 1. git init (ir --bare)
-2. cache samprata; git status; git diff
+2. index samprata; git status; git diff
 3. git add; git commit
 4. git log
+5. git blame
 5. failų atkeitimas (revert)
+6. git reset
+7. .gitignore
 
 
 Šakos (branches) ir žymos (tags)
@@ -19,36 +21,22 @@ git – paskirstyta versijavimo sistema
 3. šakų jungimas (merge)
 4. rebase
 5. žymėjimas (tags)
+6. grįžimas į praeitį (checkout)
 
 
 Kooperavimasis:
-1. Tiesioginis pullinimas iš kaimynų.
-2. Tiesioginis pushinimas pas kaimynus.
+1. Tiesioginis pullinimas iš kitų aplankų / kaimynų.
+2. Tiesioginis pushinimas į kitus aplankus / pas kaimynus.
 3. Pakeitimų siuntimas el. paštu.
 4. Atsiųstų paštu pakeitimų pritaikymas.
+5. Konfliktų sprendimas.
+6. „remote“ sąrašas
 
 
 Egzotika:
 1. git commit --interactive
 2. git commit --amend
-3. landžiojimas po vidines struktūras
+3. git stash
 4. git grep
 5. git bisect
-
-
-
-Planas
-======
-
-Pasiruošimas:
-
-1. Įdiegti msysgit, jei neįdiegtas (TortoiseGit?)
-2. Susigeneruoti SSH raktą (ssh-keygen)
-
-Savo projekto kūrimas:
-1. Užsiregistruoti github.com
-2. „create a new repository“
-3. Sekti instrukcijas
-4. Sukurti keletą failų.
-
-
+6. landžiojimas po vidines struktūras
