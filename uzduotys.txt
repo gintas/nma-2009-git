@@ -49,3 +49,7 @@ adresą ir ir pushinti pakeitimus.
 
 - Pašniukštinėti po vidinę struktūrą su git show: surasti konkrečius
 commit'us, pakeitimų medžius, pakeitimus
+
+- Pabandyti sukurti Git repozitoriją SSH serveryje, kuria
+naudotųsi keli naudotojai (jei yra galimybė -- reikės administratoriaus
+prieigos)
